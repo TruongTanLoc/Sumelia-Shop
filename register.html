@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="./image/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumeli Theme</title>
+
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- link bootstrap css -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/quenmatkhau.css">
+    <!-- css -->
+    <!-- use icon from boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- font icon -->
+</head>
+
+<body>
+    <div class="opacity_menu"></div>
+    <div class="header">
+        <div class="mid_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-12 p-4 col-first ">
+                        <div class="logo_center">
+                            <div class="logo">
+                                <a href="/" class="logo-wrapper">
+                                    <img width="140" height="80" src="./image/logo-header.png" alt="logo Sumelia Theme">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-4 col-12 col-second">
+                        <div class="header_search">
+                            <form action="/search" method="get" class="input_group search-bar" role="search">
+                                <input type="text" name="query" value autocomplete="off" placeholder="Tìm kiếm"
+                                    class="input_group_field auto_search" required>
+                                <span class="input-group-btn">
+                                    <button type="submit" class="btn icon_fallback-text">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </span>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 col-12 p-5 col-three">
+                        <div class="header-right">
+                            <div class="account-header">
+                                <a href="./login.html">Đăng nhập</a>
+                                <span class="line">/</span>
+                                <a href="/register.html" class="btns">Đăng ký</a>
+                            </div>
+                            <div class="top-cart-contain">
+                                <div class="mini-cart text-xs-center">
+                                    <a class="img-hover-cart" href="/" title="Giỏ hàng">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span>Giỏ hàng</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header_menu">
+        <div class="container">
+            <div class="row">
+                <div class="header-nav">
+                    <nav class=" navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#">Trang chủ</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sản phẩm</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Dịch vụ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Tin tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Khuyến mãi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- design login/logout -->
+    <div class="containerr">
+        <div class="content">
+            <h2 class="llogin"><i class='fas fa-seedling' style='font-size:24px'></i> Sumelia Shop</h2>
+            <div class="text-sci">
+                <h2>Welcome! <br><span>To Our New Website</span></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum et ex iste numquam inventore delectus
+                    quasi alias animi autem ut magni veritatis labore, sapiente maiores asperiores nemo. Consequatur,
+                    neque qui.</p>
+                <div class="social-icons">
+                    <a href="#"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAYJJREFUSEvt1r1Ll1EUwPGP0BDRkmMi9EL/gIE1iFgUCLb5N4SSvQ2GQ4jQIFFDDZGT/0JTIKFhc5BEay8gZKMGLrpkz4k7PBz6lcM1Az3bc+59zvee13u77JN07RPXfwU+jms4iSV82IuoZI9PYAWnCmwH1zFfG57B45hLkNXWQarxM/gp7iTr2zhajVgMZfAwFhLkNa7sNTjs38YN9GARN/HtX4BrM35rr3Yfd+Nc0wlr+PonDzL4NL6kH55jougm8TitRwsOYgZ9rbVNvMJYk771fIga4LuIbugkn9DfdMtGe0MN8NYu2u0+ZmuDw94PfC7VH2HPDsU0PF8bHB4P4F0xPFTa8EgLFAc7hhhGv6RGqJ/hVkrwS4wkXVR75LsaeBQvEuQJoujacgFva4KvluuzDZnGgwS+hDedwGdKkbT/idsqRmjIvSZXj5LBy1hOuqmm0h8egg9D3a6Bg1dc8ba6mNog7taPRdeLs2n9fTMsvifdX/fVfggkfufPgwf+Cfsxcx9utFRNAAAAAElFTkSuQmCC" /></a>
+                    <a href="#"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAPtJREFUSEvt1j1KQ0EUxfFfELuUNpIFiGDjDhTcgG0a05gswt4dKCoB07kDO1GXkCIBNxCMjRBLEcwTiyEo70Pfm4hv2nu5/zlnLodpiHQakbj+LHgF22jiBU94xGuakz9RvI8TrC9ARtgqC9zB5TfDSwOvYoK1qsE7uF2APuAas893Pi3D6gMMgsFTtPCWBgvrRZarO1+o82DIPRIXcp0i4B7OAsoddnNRKRQglYLH2Myo6grttN6sVucBH8+T6ygG+BD9GOA93PwWOJyTKLqIsdU1uLIAqa2urU7Ljo961qxeigBJfpUbwU2eMcwkM2gqojgv48v+/wd+BzgMNh/2+3xnAAAAAElFTkSuQmCC" /></a>
+                    <a href="#"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwNJREFUSEvlllmoj0EYxn/HWpainOxLsh117G7IEu4QSVHKKXXOhTuOKCFLohA3yoWtlHJhyXZDyVJkT0SiyJZSZLuzzKP30zRmvsXNUab+ffWfmfeZ95lnnvetoYVGTQvh8s8D9wQGAa0LGPoGPAHeFDGZl3EPYBswE+haFCiYfw+cAVamDpECFtgRB9zRAn4B7gDKKG+0A8YA7W3RZ2ABcDbcFAPuADwFlPEB990D3CoBmsVuA0wCNtj3NTDYZf/VB48Ba8M6y3hhRYq1fIDteQZcAKbaIdYXAb8EelvGbysCj7Ir0bY6o/wu8ArokwcseqXIR7YxhqtDzQEmAD+Aq8Bx2zfM3elD2zQaEOgnoBNQC7zLAoZUSxi6zyt2PyFwkwuyHegcTHwElgH7A6q1THoZCNQD91PAEsUlewqzguDNBiqQXcBtoC0wwkCVlcA15497BiqGxM6vEWY8Azhn1M3zdou2G0bVWLszP3g/O4iYEGsPvEnRPdIYFJO5wEcdLfO9zRvdc1oLLAd2JgS3CtgKrHFMbPbWiBkdfDJwOQU8HTgfyfgUIOr1kyPFhhjSgcNDSzNiQc/qYgpYk3p7p53IZnvRT5iSpeaTFYF1ReOcdqZZ7CjVGbCCCyQbMhQZywqn6B0J4NVGsb5bvDU3Aeliigk3FzjMuK+9bdmeTEKG4I/+Zhyyy6FBYSglron2hnWP4XNa6kxgt8taxq8no0xUFKRYPSN5fKNzqL3BoaTw4U4b421PNGOpTypMGYgCi+qYgUjx+yLXkBmIDqg3HQWWn74AnnsOFMaSZc51713sqExecyZyLFF3W1lVUpnUdakORIHVYXwwb+1VppNICC37W2qWqnU9XfzSGiuLomsJcBhYVBC4aFr2KxtWXVfM3yMG3A14bO2OOodNwHVXo78Xodh81ghon65DbdAQvzJpXar1aXB3fNAD+tvWRyEWA4fCQ+c1e/JWKVUOJpFUGWJHXqAXILr/GGX66u45TUHqMGoGcruXMsBVMi299v8D/gnZpZ4fBL5IJgAAAABJRU5ErkJggg==" /></a>
+                    <a href="#"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAfpJREFUSEvt1kuoT1EUx/HPjYEkz0J5RUlKDDDxyiOSMhDJQJEyUEhRBmJgQCkJkamJt4wkE4WBxESGTChJmUh5F2fVvv/uPd1z9/73v/lP7q7dGey1f9+91l57rdOjS6OnS1zD4P8W+aEI9ThcxjLMwA+cw2l8S55MSd9PvZ7VwaNxBXvwp8D9aXiK2QPYfsB1LMBYLO9rUwdvrQzv4B62F8DvY1PmgG+wMUXjcZPHB3AhLT7Hzmq+bRBeghcFUXlXRXEqtuBBE3gVWqfCT5zARXyvQQ7ifAH4c3Lg4WChHoWvGFkTjCS5i2vVyV/hI47jZAH4THXoo3W7gbJ6X8rSwTS/IObMAvAxnMqBd2NhlVyLsLZAtMQkNK/mwBvQ7y5KlDM28b6f5cBxt5HFs4YAGBJxHRPwNweO9ZXpHU8aAvhN7BhIp6lkRkU6jL0Y08EBVteeZ0uqCbwf27C4A/BLLG06dBN4Pl5jRAfersOjdsFhvxk3EI2j3XEWRwbblGuLkxFhX4MVhfQnWI9fnYCjnUWSHUqtLceOCO3KQUOkr8cTU8WKZj4vzahe8Q5zI95rlMZLOcPe9XqoI5Ojrs4tFPiNWykqrb+Lkr1NdxyeRoOPP4vpmIPx1X1Hi4v5PhWZ26k6lbD62eSSq23B0g3D4NJIdWzXtVD/A1e4TB/sCCruAAAAAElFTkSuQmCC" /></a>
+                </div>
+            </div>
+        </div>
+        <!-- design form login -->
+        <div class="wrapper">
+            <form action="/index.html">
+                <h1 class="fontsignup">Sign up</h1>
+                <div class="input-box">
+                    <input type="text" id="username" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="phonenumber" placeholder="Phonenumber" required>
+                    <i class='bx bxs-phone'></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="email" placeholder="Email" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+
+                <div class="nutlogin">
+                    <a href="/index.html"><button type="submit" class="btn-login" id="loginBtn">Sign up</button></a>
+                    <div class="register-link">
+                        <p>Do you already have an account? <a href="./login.html">Log in here</a></p>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="./login.js"></script>
+
+
+
+
+    <!-- link bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- link bootstrap js -->
+
+    <div class="futer">
+        <footer class="footer">
+            <div class="mid-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-12 first">
+                            <h5 class="title-menu">
+                                Giới thiệu
+                            </h5>
+                            <div class="des_footer">
+                                SUMELIA là tổ hợp chuỗi cửa hàng thực phẩm sạch số 1 tại Việt Nam với hơn 100 cửa hàng
+                                lớn
+                                nhỏ trên toàn quốc...
+                            </div>
+                            <div class="contact-ft clearfix">
+                                <div class="icon_contact">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path
+                                            d="M384 476.1L192 421.2V35.93L384 90.79V476.1zM416 88.37L543.1 37.53C558.9 31.23 576 42.84 576 59.82V394.6C576 404.4 570 413.2 560.9 416.9L416 474.8V88.37zM15.09 95.13L160 37.17V423.6L32.91 474.5C17.15 480.8 0 469.2 0 452.2V117.4C0 107.6 5.975 98.78 15.09 95.13V95.13z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="content_contact">
+                                    <span>
+
+                                        Tầng 6, 266 Đội Cấn, Ba Đình, Hà Nội,
+
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="contact-ft clearfix">
+                                <div class="icon_contact">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="content_contact">
+                                    <a href="tel:19006750">
+                                        1900 6750
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-ft clearfix">
+                                <div class="icon_contact">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448h54C28.65 448 0 419.3 0 384V176L217.6 339.2z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="content_contact">
+                                    <a href="mailto:aventteam@gmail.com">aventteam@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12 footer-click">
+                            <h5 class="title-menu clicked">
+                                Tài khoản
+                            </h5>
+                            <ul class="list-menu toggle-mn">
+
+                                <li class="li_menu">
+                                    <a href="/">Trang chủ</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/gioi-thieu">Giới thiệu</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/collections/all">Sản phẩm</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/dieu-khoan">Dịch vụ</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/tin-tuc">Tin tức</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/san-pham-khuyen-mai">Khuyến mại</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/lien-he">Liên hệ</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12 footer-click">
+                            <h5 class="title-menu clicked">
+                                Chính sách
+                            </h5>
+                            <ul class="list-menu toggle-mn">
+
+                                <li class="li_menu">
+                                    <a href="/">Trang chủ</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/gioi-thieu">Giới thiệu</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/collections/all">Sản phẩm</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/dieu-khoan">Dịch vụ</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/tin-tuc">Tin tức</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/san-pham-khuyen-mai">Khuyến mại</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/lien-he">Liên hệ</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12 footer-click">
+
+                            <h5 class="title-menu clicked">
+                                Điều khoản
+                            </h5>
+                            <ul class="list-menu toggle-mn">
+
+                                <li class="li_menu">
+                                    <a href="/">Trang chủ</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/gioi-thieu">Giới thiệu</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/collections/all">Sản phẩm</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/dieu-khoan">Dịch vụ</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/tin-tuc">Tin tức</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/san-pham-khuyen-mai">Khuyến mại</a>
+                                </li>
+
+                                <li class="li_menu">
+                                    <a href="/lien-he">Liên hệ</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright clearfix">
+                <div class="container">
+                    <div class="row tablet">
+                        <div id="copyright" class="col-lg-6 col-md-7 col-xs-12 fot_copyright">
+                            <div class="wsp">
+
+                                <span class="mobile">© Bản quyền thuộc về <b>Avent Team</b>
+                                    <span class="dash hidden-xs">|</span>
+                                </span>
+
+                                <span class="opacity1">Cung cấp bởi</span>
+
+                                <a href="javascript:;">Sapo</a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-5 col-12">
+                            <div class="payment">
+                                <img class="lazyload loaded" width="337" height="36"
+                                    src="//bizweb.dktcdn.net/100/068/166/themes/880372/assets/payment.png?1676015225050"
+                                    data-src="//bizweb.dktcdn.net/100/068/166/themes/880372/assets/payment.png?1676015225050"
+                                    alt="payment" data-was-processed="true">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <a href="#" id="back-to-top" class="backtop" title="Lên đầu trang">
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="arrow-up" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-arrow-up fa-w-14">
+                    <path fill="currentColor"
+                        d="M6.101 261.899L25.9 281.698c4.686 4.686 12.284 4.686 16.971 0L198 126.568V468c0 6.627 5.373 12 12 12h28c6.627 0 12-5.373 12-12V126.568l155.13 155.13c4.686 4.686 12.284 4.686 16.971 0l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L232.485 35.515c-4.686-4.686-12.284-4.686-16.971 0L6.101 244.929c-4.687 4.686-4.687 12.284 0 16.97z"
+                        class=""></path>
+                </svg></a>
+
+        </footer>
+    </div>
+</body>
+
+</html>
