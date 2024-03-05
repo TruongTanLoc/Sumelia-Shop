@@ -1,0 +1,14 @@
+ .fontpass {
+     width: 300px;
+     position: relative;
+     left: -80px;
+ }
+
+ .wrapper p {
+     margin-left: 40px;
+     color: rgb(198, 190, 181);
+ }
+
+ .cancel-btn {
+     padding-top: 10px;
+ }
